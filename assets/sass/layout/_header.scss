@@ -1,0 +1,36 @@
+.box-header{
+    
+    &__butoon{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        
+
+    }
+    
+    &__card{
+        background: $color-bg;
+
+
+    }
+    
+    &__paragragh{
+        margin-bottom: 40px;
+        color:$color-secondary;
+        letter-spacing: 2px;
+        padding-inline: 20px;
+
+
+    }
+    
+    &__title{
+        margin-left: 30px;
+        font-family: $font-secondary;
+        font-weight: 700;
+        font-size: 50px;
+
+
+    }
+}
+
